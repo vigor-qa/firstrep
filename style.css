@@ -181,8 +181,8 @@ a:not(.location-link):not(.telegram-link):hover {
 @media (min-width: 400px) {
 
 .card h1 {
-  font-size: 1.1rem;
-  color: #f00eac;
+  font-size: 1.3rem;
+ 
 }
 
 }
