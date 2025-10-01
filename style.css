@@ -110,6 +110,30 @@ a:not(.location-link):not(.telegram-link):hover {
   box-shadow: 0 4px 10px rgba(53, 120, 182, 0.3);
 }
 
+.telegram-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #f0f0f0; /* Нейтральный фон — подойдёт под любую иконку */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.telegram-icon img {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+.telegram-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
 /* Конфетти */
 .confetti {
   position: fixed;
