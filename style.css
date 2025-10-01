@@ -118,8 +118,8 @@ a:not(.location-link):not(.telegram-link):hover {
 }
 
 .telegram-icon img {
-  width: 28px;   /* отображаемый размер иконки */
-  height: 28px;
+  width: 48px;   /* отображаемый размер иконки */
+  height: 48px;
   display: block;
   /* Исходная иконка 256×256, но отображается мелко — останется чёткой! */
 }
