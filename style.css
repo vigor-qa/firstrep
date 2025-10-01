@@ -14,7 +14,7 @@ body {
 /* Градиентный фон — общий для обеих страниц */
 .body-location,
 body:not(.body-location) {
-  background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+  background: linear-gradient(135deg, #b4a7ff, #5834f5);
   min-height: 100vh;
   padding: 20px;
 }
