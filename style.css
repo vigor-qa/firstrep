@@ -104,18 +104,17 @@ a:not(.location-link):not(.telegram-link):hover {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background: #f0f0f0; /* Нейтральный фон — подойдёт под любую иконку */
+  width: 48px;
+  height: 48px;
+  border-radius: 2px; /* ← небольшое скругление углов */
+  background: transparent;
   text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 0;
 }
 
 .telegram-icon img {
-  width: 28px;
-  height: 28px;
+  width: 48px;
+  height: 48px;
   display: block;
 }
 
