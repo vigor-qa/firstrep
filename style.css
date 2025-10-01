@@ -22,7 +22,7 @@ body,
   padding: 20px;
   background: 
     linear-gradient(135deg, #b4a7ff, #5834f5),
-    url('/icons/tg_icon.png') repeat;
+    url('photo/fire.png') repeat;
   background-size: auto, 120px 120px;
 }
 
