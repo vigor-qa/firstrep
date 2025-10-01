@@ -100,16 +100,6 @@ a:not(.location-link):not(.telegram-link):hover {
   box-shadow: 0 4px 10px rgba(9, 132, 227, 0.3);
 }
 
-.telegram-link {
-  background: #24a5e0;
-}
-
-.telegram-link:hover {
-  background: #19738a;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(53, 120, 182, 0.3);
-}
-
 .telegram-icon {
   display: inline-flex;
   justify-content: center;
