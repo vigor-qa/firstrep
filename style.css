@@ -91,7 +91,7 @@ a:not(.location-link):not(.telegram-link):hover {
 }
 
 .location-link {
-  background: #0984e3;
+  background: #0931e3;
 }
 
 .location-link:hover {
@@ -101,13 +101,13 @@ a:not(.location-link):not(.telegram-link):hover {
 }
 
 .telegram-link {
-  background: #00bfa5;
+  background: #24a5e0;
 }
 
 .telegram-link:hover {
-  background: #00796b;
+  background: #19738a;
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 191, 165, 0.3);
+  box-shadow: 0 4px 10px rgba(53, 120, 182, 0.3);
 }
 
 /* Конфетти */
@@ -203,6 +203,6 @@ a:not(.location-link):not(.telegram-link):hover {
 
 @media (min-width: 1024px) {
   .photos {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
  }
