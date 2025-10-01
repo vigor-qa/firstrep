@@ -107,7 +107,6 @@ a:not(.location-link):not(.telegram-link):hover {
   width: 48px;          /* желаемый размер кнопки */
   height: 48px;
   border-radius: 50%;   /* делает контейнер круглым */
-  background: #f0f0f0;  /* фон (можно убрать или изменить) */
   text-decoration: none;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
